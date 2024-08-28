@@ -1,5 +1,5 @@
 describe('user_registration', () => {
-    it('passes', () => {
+    it('should registration successfully', () => {
         const fnameBang = ['রাসেল']; const lnameBang = ['শাহরিয়ার'];
         const fnameEng = ['Rashel55']; const lnameEng = ['Shahriar'];
 
@@ -76,4 +76,4 @@ describe('user_registration', () => {
         // Submit
         cy.contains('button', 'Create Account').click();
     })
-})
+}) 
