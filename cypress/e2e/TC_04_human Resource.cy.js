@@ -1,5 +1,6 @@
 import { userData } from "../support/userConfigure.cy";
-describe('User login', () => {
+
+describe('Human Resource', () => {
     it('should log in successfully', () => {
         // Visit the website
         cy.visit('https://lams.dev.z8.softbd.xyz/');
